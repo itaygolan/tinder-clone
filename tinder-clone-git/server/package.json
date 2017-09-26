@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=dev nodemon --exec babel-node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "apollo-server-express": "^1.1.2",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.17.2",
+    "cross-env": "^5.0.5",
+    "express": "^4.15.4",
+    "faker": "^4.1.0",
+    "graphql-date": "^1.0.3",
+    "graphql-server-express": "^1.1.2",
+    "graphql-tools": "^1.2.2",
+    "http": "^0.0.0",
+    "jsonwebtoken": "^7.4.3",
+    "mongoose": "^4.11.9",
+    "styled-components": "^2.1.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "graphql": "^0.11.2",
+    "nodemon": "^1.11.0"
+  }
+}
